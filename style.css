@@ -1,0 +1,102 @@
+.body {
+   container-type: inline-size;
+   container-name: changelayout;
+
+    
+    }
+    @container(width <600px) {
+      is (.media, .container) body {
+         grid-template-columns: 1fr
+      }
+   }
+ #lov {
+   container-type: inline-size;
+   container-name: changelayout;
+
+ }
+      @container(width <800px) {
+         is (.media, .container) body {
+            grid-template-columns: 1fr
+         }
+      }
+   
+    
+
+a:hover {
+    color: red;
+    font-size: 17px;
+   
+}
+ a:visited {
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ #btn {
+    color: aqua;
+ }
+
+ #demo {
+    background-color: brown;
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+    height: 100%;
+ }
+
+ .sp {
+    color: aqua;
+    font-size: 20px;
+
+ }
+  
+ #lo {
+    color: brown;
+    margin-left: 400px;
+ }
+
+ #sarkari {
+   margin-left: 400px;
+ }
+
+ #A {
+   text-align: center;
+ }
+
+ #D {
+   margin-left:50px;
+  
+ }
+
+ #B{
+   margin-left: 50px;
+ }
+
+ #git {
+   border: 2px;
+   background-color:rgb(0, 174, 255);
+   text-align: right;
+   padding-top: 2px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+
+
+ }
+
+ #git1 {
+   border: 1px;
+   background-color:rgb(0, 174, 255);
+   text-align: right;
+   padding-top: 2px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+
+ }
+
+ #git2 {
+   border: 2px;
+   background-color:blue;
+   text-align: right;
+   padding-top: 2px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+ }
